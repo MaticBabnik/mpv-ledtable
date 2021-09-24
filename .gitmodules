@@ -1,0 +1,3 @@
+[submodule "osdep/CSerial"]
+	path = osdep/CSerial
+	url = https://github.com/rm5248/CSerial

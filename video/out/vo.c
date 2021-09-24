@@ -65,6 +65,7 @@ extern const struct vo_driver video_out_wlshm;
 extern const struct vo_driver video_out_rpi;
 extern const struct vo_driver video_out_tct;
 extern const struct vo_driver video_out_sixel;
+extern const struct vo_driver video_out_ledtable;
 
 const struct vo_driver *const video_out_drivers[] =
 {
@@ -98,6 +99,7 @@ const struct vo_driver *const video_out_drivers[] =
     // should not be auto-selected
     &video_out_image,
     &video_out_tct,
+    &video_out_ledtable,
 #if HAVE_CACA
     &video_out_caca,
 #endif
