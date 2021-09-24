@@ -1,7 +1,7 @@
 # mpv-ledtable
 MPV fork with support for driving a 20x20 WS2812 array over serial
 
-The ESP32 firmware should be here: [ledtable](https://github.com/MaticBabnik/mpv-ledtable)
+The ESP32 firmware should be here: [ledtable](https://github.com/MaticBabnik/ledtable)
 
 ### Build and run:
 ```bash
