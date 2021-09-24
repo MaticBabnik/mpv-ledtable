@@ -1,7 +1,15 @@
-![mpv logo](https://raw.githubusercontent.com/mpv-player/mpv.io/master/source/images/mpv-logo-128.png)
+# mpv-ledtable
+MPV fork with support for driving a 20x20 WS2812 array over serial
 
-# mpv
+The ESP32 firmware should be here: [ledtable](https://github.com/MaticBabnik/mpv-ledtable)
 
+### Build and run:
+```bash
+./waf configure #run this once
+./waf build
+./build/mpv -vo=ledtable --vo-ledtable-port=<PORT> <file>
+```
+![mpv logo](https://s3.eu-central-1.wasabisys.com/ya.yeet.si/mpv-ledtable.jpg)
 
 * [External links](#external-links)
 * [Overview](#overview)
